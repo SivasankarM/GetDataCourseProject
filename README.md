@@ -9,15 +9,16 @@ The given data represent data collected from the accelerometers from the Samsung
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 Assumptions and requisites:
-1. The given script assumes the downloaded zip file "getdata-projectfiles-UCI HAR Dataset.zip" is present in the current directory of R. 
-2. The script requires the following packages in R to be loaded 
-	a. plyr
-	b. reshape
+* The given script assumes the downloaded zip file "getdata-projectfiles-UCI HAR Dataset.zip" is present in the current directory of R. 
+* The script requires the following packages in R to be loaded 
+	- plyr
+	- reshape
 
 Steps in processing:
-1. Unzips the given data file 
-2. Loads the test data into 3 variables one each corresponding to the subject information, activity information and the various readings using read.table function on the files subject_test.txt, y_test.txt and X_test.txt files respectively
-3. Combine the 3 test data into a single data frame using column bind (cbind) function
+
+* Unzips the given data file. 
+* Loads the test data into 3 variables one each corresponding to the subject information, activity information and the various readings using read.table function on the files subject_test.txt, y_test.txt and X_test.txt files respectively.
+* Combine the 3 test data into a single data frame using column bind (cbind) function.
 4. Loads the training data into 3 variables one each corresponding to the subject information, activity information and the various readings using read.table function on the files subject_train.txt, y_train.txt and X_train.txt files respectively
 5. Combine the 3 training data into a single data frame using column bind (cbind) function
 6. Merge the test data and training data into a single data frame using row bind (rbind) function
