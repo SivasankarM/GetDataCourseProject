@@ -1,15 +1,15 @@
-CodeBook:
+### CodeBook:
 
 The output data in output.txt has four columns
 
-## Subject_ID
+#### Subject_ID
 ID of the 30 volunteers within an age bracket of 19-48 years who performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. The ID values range from 1 to 30 representing each of the volunteer.
 
-## Activity_Name
+#### Activity_Name
 The activity performed by the volunteer for that observation. Values will be one of the below six:
 WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-## Variable
+#### Variable
 This is the name of the reading or observation taken. This could be one of the below values:
  [1] tBodyAcceleration_mean_X                            
  [2] tBodyAcceleration_mean_Y                            
@@ -78,5 +78,5 @@ This is the name of the reading or observation taken. This could be one of the b
 [65] fBodyBodyGyroJerkMagnitude_mean                     
 [66] fBodyBodyGyroJerkMagnitude_StandardDeviation
 
-## Mean
+#### Mean
 This is the mean value for each of the variable for each subject for each activity.
